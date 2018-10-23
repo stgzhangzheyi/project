@@ -1,0 +1,11 @@
+{
+	"users": [
+		{"id": 1, "name": "xoaiming12", "nickname": "", "pwd": "qww24341w_a"},
+		{"id": 2, "name": "qa", "nickname": "", "pwd": "2321"},
+		{"id": 3, "name": "de", "nickname": "", "pwd": "aa"},
+		{"id": 6, "name": "xiaokeai", "nickname": "小可爱", "pwd": "123456"},
+		{"id": 4, "name": "23sd", "nickname": "", "pwd": "sd0000"},
+		{"id": 5, "name": "vvdssa", "nickname": "", "pwd": "dddf"},
+		{"id": 6, "name": "xiaoming", "nickname": "小明", "pwd": "123456"}
+	]
+}

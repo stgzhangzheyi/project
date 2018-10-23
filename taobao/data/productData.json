@@ -1,0 +1,292 @@
+{
+	"types": [
+		"meizhuang",
+		"nvzhuang",
+		"jujia"
+	],
+	"jujia": {
+		"type": "居家",
+		"isHot": true,
+		"hotEndTime": "2018-10-11 15:43:56",
+		"theme": "jj",
+		"products": [
+			{
+				"id": "jujia1",
+				"img": "./img/71.jpg",
+				"price": 2778,
+				"name": "卫新",
+				"mainDescribe": "卫新 香水洗衣液（薰衣草） 4.26kg",
+				"detailDescribe": "卫新 香水洗衣液（薰衣草） 4.26kg"
+			},
+			{
+				"id": "jujia2",
+				"img": "./img/72.jpg",
+				"price": 2348,
+				"name": "汰渍",
+				"mainDescribe": "汰渍 三色球 3合1洗衣凝珠（洁雅茉莉）18颗/盒*3 非洗衣液",
+				"detailDescribe": "汰渍 三色球 3合1洗衣凝珠（洁雅茉莉）18颗/盒*3 非洗衣液"
+			},
+			{
+				"id": "jujia3",
+				"img": "./img/73.jpg",
+				"price": 1238,
+				"name": "超能",
+				"mainDescribe": " 超能 植翠低泡洗衣液（鲜艳亮丽）2kg/袋装（新老包装随机发货）",
+				"detailDescribe": " 超能 植翠低泡洗衣液（鲜艳亮丽）2kg/袋装（新老包装随机发货）"
+			},
+			{
+				"id": "jujia4",
+				"img": "./img/74.jpg",
+				"price": 6653,
+				"name": "蓝月亮",
+				"mainDescribe": "蓝月亮 深层洁净洗衣液（自然清香）1kg/瓶",
+				"detailDescribe": "蓝月亮 深层洁净洗衣液（自然清香）1kg/瓶"
+			},
+			{
+				"id": "jujia5",
+				"img": "./img/75.jpg",
+				"price": 343,
+				"name": "开米",
+				"mainDescribe": "开米（kami）涤王浓缩多功能中性洗衣液 手洗机洗 温和抑菌护理液 500g 袋装",
+				"detailDescribe": "开米（kami）涤王浓缩多功能中性洗衣液 手洗机洗 温和抑菌护理液 500g 袋装"
+			},
+			{
+				"id": "jujia6",
+				"img": "./img/76.jpg",
+				"price": 4532,
+				"name": "碧浪",
+				"mainDescribe": "碧浪洁护如新型洗衣液3kg/瓶 护色 去渍 含馨香因子",
+				"detailDescribe": "碧浪洁护如新型洗衣液3kg/瓶 护色 去渍 含馨香因子"
+			},
+			{
+				"id": "jujia7",
+				"img": "./img/77.jpg",
+				"price": 32132,
+				"name": "奥妙",
+				"mainDescribe": "奥妙 洗衣液 18.3斤超值 除菌除螨 大礼包 源自天然酵素(新老包装随机发货)",
+				"detailDescribe": "奥妙 洗衣液 18.3斤超值 除菌除螨 大礼包 源自天然酵素(新老包装随机发货)"
+			},
+			{
+				"id": "jujia8",
+				"img": "./img/78.jpg",
+				"price": 3211,
+				"name": "威露士",
+				"mainDescribe": "威露士多效洗衣液瓶装套装13.08斤（3kg洗衣液x2、300g内衣净x1，60ml消毒液x4）",
+				"detailDescribe": "威露士多效洗衣液瓶装套装13.08斤（3kg洗衣液x2、300g内衣净x1，60ml消毒液x4）"
+			}
+		]
+	},
+
+	"nvzhuang": {
+		"type": "女装",
+		"isHot": false,
+		"hotEndTime": "",
+		"theme": "nz",
+		"products": [
+			{
+				"id": "nz1",
+				"img": "./img/45.jpg",
+				"price": 2578,
+				"name": "静幽兰秋装",
+				"mainDescribe": "静幽兰秋装女装连衣裙2018秋冬新款大码女装韩版修身显瘦性感中长时尚套装女绣花毛呢女士长袖针织连衣裙",
+				"detailDescribe": "静幽兰秋装女装连衣裙2018秋冬新款大码女装韩版修身显瘦性感中长时尚套装女绣花毛呢女士长袖针织连衣裙"
+			},
+			{
+				"id": "nz2",
+				"img": "./img/42.jpg",
+				"price": 2348,
+				"name": "忆思暮秋装",
+				"mainDescribe": "忆思暮秋装女装连衣裙2018秋冬新款大码女装韩版修身显瘦性感中长时尚套装女印花毛呢女士长袖针织连衣裙",
+				"detailDescribe": "忆思暮秋装女装连衣裙2018秋冬新款大码女装韩版修身显瘦性感中长时尚套装女印花毛呢女士长袖针织连衣裙"
+			},
+			{
+				"id": "nz3",
+				"img": "./img/43.jpg",
+				"price": 1238,
+				"name": "褶饰短袖上衣",
+				"mainDescribe": "此款褶饰短袖上衣对本季定制运动衫主题进行了颇为个性的演绎",
+				"detailDescribe": "此款褶饰短袖上衣对本季定制运动衫主题进行了颇为个性的演绎。多种亮色针织花纹的拼贴组合创造精美的装饰效果，体现女装艺术总监Nicolas Ghesquière对运动装设计的借鉴。与此相对，饰有本季特色几何印花的褶纹围兜——单侧配有摁扣——则展现出温柔的女性气质。"
+			},
+			{
+				"id": "nz4",
+				"img": "./img/44.jpg",
+				"price": 6653,
+				"name": "顾逸短外套",
+				"mainDescribe": "短外套女2018秋装新品韩版休闲印花风衣短款外套夹克女秋冬",
+				"detailDescribe": "短外套女2018秋装新品韩版休闲印花风衣短款外套夹克女秋冬"
+			},
+			{
+				"id": "nz5",
+				"img": "./img/41.jpg",
+				"price": 343,
+				"name": "抽绳慢跑长裤",
+				"mainDescribe": "轻盈、舒适而时尚，此款抽绳慢跑长裤饰有本季标志性的几何印花，其中融入路易威登品牌标识",
+				"detailDescribe": "轻盈、舒适而时尚，此款抽绳慢跑长裤饰有本季标志性的几何印花，其中融入路易威登品牌标识。由凸纹摩洛哥真丝绉绸裁制而成，版型宽松。腰部抽绳配有Monogram帆布饰片，踝部配有LV拉链。"
+			},
+			{
+				"id": "nz6",
+				"img": "./img/46.jpg",
+				"price": 4532,
+				"name": "顾逸2018秋季韩版新款",
+				"mainDescribe": " 顾逸2018秋季韩版新款短外套女学生韩版宽松秋外套女春秋牛仔棒球服女百搭显瘦秋装女装秋冬",
+				"detailDescribe": " 顾逸2018秋季韩版新款短外套女学生韩版宽松秋外套女春秋牛仔棒球服女百搭显瘦秋装女装秋冬"
+			},
+			{
+				"id": "nz7",
+				"img": "./img/47.jpg",
+				"price": 32132,
+				"name": "梦娜3条打底裤",
+				"mainDescribe": "梦娜3条打底裤女 80D秋冬季新款中厚天鹅绒丝袜连裤袜性感外穿打底裤袜加档踩脚袜 黑色3条-踩脚款（80D微透肉适合15-28℃）",
+				"detailDescribe": "梦娜3条打底裤女 80D秋冬季新款中厚天鹅绒丝袜连裤袜性感外穿打底裤袜加档踩脚袜 黑色3条-踩脚款（80D微透肉适合15-28℃）"
+			},
+			{
+				"id": "nz8",
+				"img": "./img/48.jpg",
+				"price": 3211,
+				"name": "竹言",
+				"mainDescribe": "竹言 【95%棉】2018春秋季新款连帽卫衣女早秋套头长袖韩版学生宽松薄款慵懒风外套女泡泡袖纯棉上衣 ",
+				"detailDescribe": "竹言 【95%棉】2018春秋季新款连帽卫衣女早秋套头长袖韩版学生宽松薄款慵懒风外套女泡泡袖纯棉上衣 "
+			},
+			{
+				"id": "nz9",
+				"img": "./img/49.jpg",
+				"price": 3901,
+				"name": "迪芙奥",
+				"mainDescribe": "迪芙奥 加绒卫衣女2018秋冬装新款韩版学生宽松休闲长袖飘带百搭加厚外套上衣女潮",
+				"detailDescribe": "迪芙奥 加绒卫衣女2018秋冬装新款韩版学生宽松休闲长袖飘带百搭加厚外套上衣女潮"
+			},
+			{
+				"id": "nz8",
+				"img": "./img/50.jpg",
+				"price": 6294,
+				"name": "尤缇秋季新款",
+				"mainDescribe": "uti尤缇秋季新款白色圆领字母印花宽松休闲防晒长袖卫衣女装上衣 ",
+				"detailDescribe": "uti尤缇秋季新款白色圆领字母印花宽松休闲防晒长袖卫衣女装上衣 "
+			},
+			{
+				"id": "nz8",
+				"img": "./img/51.jpg",
+				"price": 3707,
+				"name": "茵曼2018",
+				"mainDescribe": "茵曼2018冬装新款连帽绣花宽松落肩袖卫衣女【18840|82497】",
+				"detailDescribe": "茵曼2018冬装新款连帽绣花宽松落肩袖卫衣女【18840|82497】"
+			},
+			{
+				"id": "nz8",
+				"img": "./img/52.jpg",
+				"price": 1711,
+				"name": "时尚卫衣",
+				"mainDescribe": "自由呼吸时尚外套2018字母连帽上衣白色春秋季长袖韩版潮学生薄款卫衣女 墨绿 S(女)",
+				"detailDescribe": "自由呼吸时尚外套2018字母连帽上衣白色春秋季长袖韩版潮学生薄款卫衣女 墨绿 S(女)"
+			}
+
+		]
+	},
+
+	"meizhuang": {
+		"type": "美妆",
+		"isHot": true,
+		"hotEndTime": "2018-10-14 10:12:43",
+		"theme": "mz",
+		"products": [
+			{
+				"id": "mz1",
+				"img": "./img/21.jpg",
+				"price": 2778,
+				"name": "芙丽芳丝（freeplus）净润洗面霜",
+				"mainDescribe": "芙丽芳丝（freeplus）净润洗面霜100g（温和洁面 深层清洁 氨基酸系 敏感肌 洗面奶 男女适用 ）",
+				"detailDescribe": "芙丽芳丝（freeplus）净润洗面霜100g（温和洁面 深层清洁 氨基酸系 敏感肌 洗面奶 男女适用 ）"
+			},
+			{
+				"id": "mz2",
+				"img": "./img/22.jpg",
+				"price": 2348,
+				"name": "贝德玛洁肤液",
+				"mainDescribe": "法国贝德玛（Bioderma）舒妍多效洁肤液500ml （卸妆水 深层清洁 粉水 舒缓保湿 敏感肌 眼唇 原装进口）",
+				"detailDescribe": "法国贝德玛（Bioderma）舒妍多效洁肤液500ml （卸妆水 深层清洁 粉水 舒缓保湿 敏感肌 眼唇 原装进口） "
+			},
+			{
+				"id": "mz3",
+				"img": "./img/23.jpg",
+				"price": 1238,
+				"name": "Elta氨基酸洁面乳",
+				"mainDescribe": "Elta MD氨基酸洁面乳207ml 弱酸性卸妆清洁洗面奶 敏感肌可用 新老包装随机发货",
+				"detailDescribe": "Elta MD氨基酸洁面乳207ml 弱酸性卸妆清洁洗面奶 敏感肌可用 新老包装随机发货"
+			},
+			{
+				"id": "mz4",
+				"img": "./img/24.jpg",
+				"price": 6653,
+				"name": "士控油抗痘洁面乳",
+				"mainDescribe": "士控油抗痘洁面乳150ml（男士洗面奶控油 控油祛痘 深层清洁 持久清爽）新老包装随机发货",
+				"detailDescribe": "士控油抗痘洁面乳150ml（男士洗面奶控油 控油祛痘 深层清洁 持久清爽）新老包装随机发货"
+			},
+			{
+				"id": "mz5",
+				"img": "./img/25.jpg",
+				"price": 343,
+				"name": "资生堂珊珂",
+				"mainDescribe": "资生堂珊珂（SENKA）绵润泡沫洁面乳120g*2（日本进口原洗颜专科2支装洗面奶）",
+				"detailDescribe": "资生堂珊珂（SENKA）绵润泡沫洁面乳120g*2（日本进口原洗颜专科2支装洗面奶）"
+			},
+			{
+				"id": "mz6",
+				"img": "./img/26.jpg",
+				"price": 4532,
+				"name": "抗痘洁面炭泥",
+				"mainDescribe": "妮维雅(NIVEA)男士净油精华抗痘洁面炭泥150ml*2套装（洗面奶 控油清透毛孔）",
+				"detailDescribe": "妮维雅(NIVEA)男士净油精华抗痘洁面炭泥150ml*2套装（洗面奶 控油清透毛孔）"
+			},
+			{
+				"id": "mz7",
+				"img": "./img/27.jpg",
+				"price": 32132,
+				"name": "欧莱雅LOREAL",
+				"mainDescribe": "欧莱雅LOREAL 男士火山岩控油清痘洁面膏100ml（洗面奶男 清洁毛孔 祛痘 男士洗面奶）",
+				"detailDescribe": "欧莱雅LOREAL 男士火山岩控油清痘洁面膏100ml（洗面奶男 清洁毛孔 祛痘 男士洗面奶）"
+			},
+			{
+				"id": "mz8",
+				"img": "./img/28.jpg",
+				"price": 3211,
+				"name": "净妍控油洁肤液",
+				"mainDescribe": "法国贝德玛（Bioderma）净妍控油洁肤液500ml（卸妆水 深层清洁 绿水 控油补水 改善毛孔痘痘 原装进口）",
+				"detailDescribe": "法国贝德玛（Bioderma）净妍控油洁肤液500ml（卸妆水 深层清洁 绿水 控油补水 改善毛孔痘痘 原装进口）"
+			},
+			{
+				"id": "mz9",
+				"img": "./img/29.jpg",
+				"price": 343,
+				"name": "资生堂珊珂",
+				"mainDescribe": "资生堂珊珂（SENKA）绵润泡沫洁面乳120g（日本进口原洗颜专科洗面奶）",
+				"detailDescribe": "资生堂珊珂（SENKA）绵润泡沫洁面乳120g（日本进口原洗颜专科洗面奶）"
+			},
+			{
+				"id": "mz10",
+				"img": "./img/11.jpg",
+				"price": 4532,
+				"name": "SK-II",
+				"mainDescribe": "SK-II护肤洁面霜120g（神仙水洗面奶 洁面乳 洗面 补水保湿 ）",
+				"detailDescribe": "SK-II护肤洁面霜120g（神仙水洗面奶 洁面乳 洗面 补水保湿 ）"
+			},
+			{
+				"id": "mz11",
+				"img": "./img/12.jpg",
+				"price": 32132,
+				"name": "季德胜",
+				"mainDescribe": "【脸上瘙痒长痘，螨虫在作怪】季德胜百部除螨祛痘洗面奶男士 女士植物温和去螨虫去黑头控油去角质100g",
+				"detailDescribe": "【脸上瘙痒长痘，螨虫在作怪】季德胜百部除螨祛痘洗面奶男士 女士植物温和去螨虫去黑头控油去角质100g"
+			},
+			{
+				"id": "mz12",
+				"img": "./img/13.jpg",
+				"price": 3211,
+				"name": "悦诗风吟",
+				"mainDescribe": "悦诗风吟Innisfree济州岛火山岩泥毛孔清洁洗颜乳150ml（京东自营 深层清洁 去黑头角质 洗面奶 男女通用）",
+				"detailDescribe": "悦诗风吟Innisfree济州岛火山岩泥毛孔清洁洗颜乳150ml（京东自营 深层清洁 去黑头角质 洗面奶 男女通用）"
+			}
+
+		]
+	}
+
+}

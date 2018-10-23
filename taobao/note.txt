@@ -1,0 +1,45 @@
+我的订单
+订单状态: -1 => 全部, 0 => 未付款, 1 => 待发货, 2 => 待收货, 3 => 已收货
+
+bootstrap3: col-lg 超大PC, col-md PC, col-sm ipad, col-xs mobile
+bootstrap4: col-xl 超大PC, col-lg pC, col-md ipad, col-sm mobile, col, col-6
+
+bootstrap: mt: margin-top, mt-lg-2: 只在lg以上屏幕范围生效
+0: 0px
+1: 4px,
+2: 8px,
+3: 16px,
+4: 24px,
+5: 48px
+
+mt-2
+
+mx 等价于 ml 和 mr
+my 等价于 mt 和 mb
+
+pl == padding-left
+pt == padding-top
+pb == padding-bottom
+pr == padding-right
+px
+py
+
+
+栅格可嵌套栅格
+<div class="row">
+		<div class="col-lg-6">
+			<div class="row">
+				<div class="col-lg-3"></div>
+				<div class="col-lg-3"></div>
+				<div class="col-lg-3"></div>
+				<div class="col-lg-3"></div>
+			</div>
+		</div>
+		<div class="col-lg-6"></div>
+	</div>
+
+小的栅格可以被大的栅格使用
+
+box-shadow: x轴偏移距离 y轴偏移距离 阴影模糊程度 阴影大小 阴影颜色 阴影位置;
+比如: box-shadow: 2px 2px 16px 2px #e49 inset;
+比如: box-shadow: 2px 2px 16px 2px #e49;
