@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<title>music</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,maximum-scale=1" />
+	<link rel="stylesheet" type="text/css" href="css/li.css"/>
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+</head>
+<body>
+	<div class="menu" id="menu">
+		<div class="ghost-btn">
+			QQ音乐
+		<!-- <i class="ghost-top"></i>
+		<i class="ghost-right"></i>
+		<i class="ghost-left"></i>
+		<i class="ghost-bottom"></i> -->
+		</div>
+	</div>
+	<div class="audio-playing"  id="audioPlaying">
+		<audio id="audio" class="audio" src="music/nihaiyaowozenyang.mp3"/>
+    </div>
+	<div id="photography" class="photography">
+			<div id="photo" class="photo"></div>
+			<div class="circle"></div>
+			<div id="close" class="close">
+				<i class="a"></i>
+				<i class="b"></i>
+			</div>
+		</div>
+	<div class="box-bg"></div>
+	<div class="top-bg">	
+		<div class="top-bg-cloce">
+			<div class="top-bg-cloce-one"><i class="a"></i>
+			<i class="b"></i>
+			</div>
+		</div>
+		<div class="top-bg-img"></div>
+		<div class="top-bg-title">早已看破红尘，净身剃度，归于佛门</div>
+		<div class="top-bg-text">江南的秋天，没有萧刹，处处葱郁，一夜醒来，秋天忽已行远，道是枫叶红了，银杏黄了，柿子挂着沉甸，芦花夕阳里摇曳着鹤影，层叠的秋色，一片片，一连连，风景变幻，前赴后继，如漆染彩堆。一边是秋色未退，一边是秋色情浓，归去的路上，灿烂惊艳，谁也不曾想到，从夏到秋，从秋到冬，会有这样一次色彩的聚会，美丽的比拼，把人言里的枯燥无味，变成一年中难忘的画卷。</div>
+	</div>
+	<div class="box">
+	<!-- 上 -->
+	<div class="top">
+		<div class="top-one">
+			<div class="top-one-i"><i class="fa fa-reply top-i"></i></div>
+			<div class="top-one-text">歌单</div>
+		</div>
+		<div class="top-two">
+			<div class="top-two-img"></div>
+			<div class="top-two-text">早已看破红尘，净身剃度，归于佛门</div>
+		</div>
+	</div>
+	<!-- 中 -->
+	<div class="middle">
+		<ul class="list" id="list">
+
+			</ul>
+	</div>
+    <!-- 下 -->
+	<div class="bottom" id="bottom">
+		<div class="bottom-one">
+		<div class="bottom-one-move">
+				<div class="time fl" id="timeOne">00:00:00</div>
+				<div id="aduioMove" class="aduioMove fl">
+					<div id="progressOne" class="not-active progress"></div>
+
+					<div id="progressTwo" class="active progress"></div>
+
+					<div id="mask" class="mask"></div>
+
+					<div id="layer" class="layer"></div>
+
+				</div>
+				<div class="time fl" id="timeTwo">00:00:00</div>
+			</div>
+		</div>
+		<div class="bottom-two">
+			<div class="bottom-two-left fl">
+				<div id="bottom-two-left-img" class="bottom-two-left-img">
+				<img class="auto-img" src="./images/dengziqi.jpg" />
+				</div>
+				<div class="bottom-two-left-text">我喜欢你</div>
+				<div class="bottom-two-left-name">邓紫棋</div>
+			</div>
+			<div class="bottom-two-middle fl">
+						<div class="bottom-two-middle-prev fl" id="prev">
+							<i class="fa fa-backward"></i>
+						</div>
+					
+						<div class="bottom-two-middle-play fl">
+							<i class="fa fa-play playing-i"></i>
+						</div>
+					
+						<div class="bottom-two-middle-next fl" id="next">
+							<i class="fa fa-forward"></i>
+						</div>				
+			</div>
+
+			<div class="bottom-two-right fl">
+				<div class="bottom-two-right-one fl">
+					<div class="bt-rigth"><i class="fa fa-exchange"></i></div>
+					<div id="bottomChange" class="bottom-two-right-change">
+							<div class="bt-one"><i class="fa fa-exchange"></i></div>
+							<div class="bt-two"><i class="fa fa-refresh"></i></div>
+							<div class="bt-three"><i class="fa fa-random"></i></div>
+					</div>
+				</div>
+				<div class="bottom-two-right-two fl" id="bottomSmallMove">
+					<i class="fa fa-volume-up"></i>
+					<div id="smallMove" class="small-two-move">
+				
+								<div id="smallNotActive" class="small-not-active"></div>
+
+								<div id="smallActive" class="small-active"></div>
+
+								<div id="smallMask" class="small-mask"></div>
+
+								<div id="smallLayer" class="small-layer"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/zhe.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('.ghost-btn').on("click",function(){
+				$(".menu").css({display:"none"});
+			})
+			$('.top-one-i').on("click",function(){
+				$(".menu").css({display:"block"});
+			})
+			$('.top-two-img').on("click",function(){
+				$('.top-bg').css({
+					display:"block"
+				})
+				$(".box").css({
+					display:"none"
+				})
+			})
+			$(".top-bg-cloce-one").on("click",function(){
+				$('.top-bg').css({
+					display:"none"
+				})
+				$(".box").css({
+					display:"block"
+				})
+			})
+
+			var $list=$("#list");
+
+			var allData=love.musicSrc;
+			for (var i = 0; i < love.musicSrc.length; i++) {
+				var item=$('<li class="clearfix" data-url="'+love.musicSrc[i].ge+'" data-play="false">'+
+					'<div class="music-img fl">'+
+						'<img class="auto-img-one" src="'+love.musicSrc[i].img+'" />'+
+					'</div>'+
+					'<div class="music-info fl">'+
+						'<div class="music-name">'+
+							'<div class="one-text">'+love.musicSrc[i].name+'</div>'+
+						'</div>'+
+						'<div class="music-singer">'+
+							'<span>歌手:</span><span class="singer">'+love.musicSrc[i].xing+'</span>'+
+						'</div>'+
+					'</div>'+
+					'<div class="music-play fl">'+
+						'<i class="fa fa-play icons"></i>'+
+					'</div>'+
+				'</li>');
+				$list.append(item);
+			}
+			
+		
+
+		})
+	</script>
+</body>
+</html>
